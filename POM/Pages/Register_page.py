@@ -3,10 +3,7 @@ from POM.Pages.base_page import BasePage
 from POM.utils.locators import RegisterPage_Locators
 
 class RegisterPage(BasePage):
-
-
     # define register actions
-
     def Register(self,firstname,lastname,email,telephone,password,confirm_password):
         self.input_text(*RegisterPage_Locators.FIRSTNAME_INPUT,firstname)
         self.input_text(*RegisterPage_Locators.LASTNAME_INPUT,lastname)
