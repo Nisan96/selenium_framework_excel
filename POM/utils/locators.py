@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 
-
 class RegisterPage_Locators:
     # define locators
     FIRSTNAME_INPUT = (By.NAME, "firstname")

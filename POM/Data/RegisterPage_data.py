@@ -2,7 +2,7 @@ class Register_test_data:
     # valid data
     valid_firstname = "ashraf"
     valid_lastname = "nisan"
-    valid_email = "nayan09@mail.com"
+    valid_email = "nayan094@mail.com"
     valid_telephone = "01772693406"
     valid_password = "admin123"
     valid_confirmPassword = "admin123"

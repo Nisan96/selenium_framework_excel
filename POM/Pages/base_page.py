@@ -23,6 +23,7 @@ class BasePage():
         element.send_keys(text)
 
     def capture_screenshot(self,screenshot_name):
-        screenshot_file_path = "D:\\Automation_testing\\selenium_framework\\POM\\screenshots"
+        #screenshot_file_path = "D:\\Automation_testing\\selenium_framework\\POM\\screenshots"
+        screenshot_file_path = os.path.join(os.getcwd(),'POM','screenshots')
         self.control.get_screenshot_as_file(screenshot_file_path + "\\" + screenshot_name + ".png")
 
